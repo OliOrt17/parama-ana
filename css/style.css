@@ -433,7 +433,7 @@ li > a:only-child:after { content: ''; }
 .w3layouts-banner-info i {
     vertical-align: middle;
 }
-
+.feedback-img-info
 .banner-top,
 .banner-top1,
 .banner-top2,
@@ -502,6 +502,13 @@ p.about-text {
 .feature-grids  p {
     letter-spacing: 1px;
 }
+
+.counter{
+	height: 200px;
+}
+.caption{
+	height: 200px;
+}
 /*-- //about --*/
 
 /*-- core grids --*/
@@ -526,9 +533,15 @@ p.about-text {
 }
 .welcome-grid {
     width: 20%;
-    float: left;
+	float: left;
+	height: 226px;
+    margin-top: 45px;
+    overflow: hidden;
 }
-
+.home-grid{
+	height: 240px;
+	overflow: hidden;
+}
 .welcome-grid h4 {
     font-size: 22px;
     letter-spacing: 2px;
@@ -586,7 +599,9 @@ p.about-text {
 /*-- //bg --*/
 
 /*-- blog info --*/
-
+.blog{
+	height: 650px;
+}
 .blog-grids {
     margin-bottom: 50px;
 }
@@ -611,6 +626,8 @@ p.about-text {
 	padding: 5px;
 	filter:grayscale(100%);
 	transition: 1s;
+	height: 120px;
+	object-fit: cover;
 }
 
 .gallery img:hover{
@@ -627,7 +644,8 @@ p.about-text {
     position: absolute;
     left: 6%;
     right: 6%;
-    top: 200px;
+	top: 200px;
+	height: 200px;
 	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
 }
 .blog-info p {
@@ -928,6 +946,11 @@ p.count-text {
     font-weight: 600;
     text-transform: uppercase;
 }
+.img-fluid{
+	width: 80px;
+	height: 70px;
+	object-fit: cover;
+}
 .feedback-info p {
     letter-spacing: 1px;
     line-height: 1.8em;
@@ -941,7 +964,7 @@ p.count-text {
 
 .feedback-img {
     float: left;
-    width: 25%;
+	width: 25%;
 }
 
 .feedback-img-info {
@@ -957,7 +980,8 @@ p.count-text {
     font-weight: 600;
 }
 .feedback-info {
-    background: #fff;
+	background: #fff;
+	height: 350px;
 }
 /* //news */
 

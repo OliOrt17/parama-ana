@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-4 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
+				<h1> <a href="index.php"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
@@ -76,12 +76,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<br>
 			<h1>Imagenes de galeria</h1>
 
-			<div class="gallery" >
+			<div align="center" class="gallery" >
 			<?php
 				$galeria = $db->select("galeria","*");
 				foreach($galeria as $key => $gal){		
 			?>
-				<a href="<?php echo $gal["gal_img"];?>" data-lightbox="mygallery" data-title="<?php echo $gal["gal_titulo"];?>"> <img src="<?php echo $gal["gal_img"];?>" alt=""></a>
+				<a  href="<?php echo $gal["gal_img"];?>" data-lightbox="mygallery" data-title="<?php echo $gal["gal_titulo"];?>"> <img src="<?php echo $gal["gal_img"];?>" alt=""></a>
 				<?php	
 				}
 			?>
@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<p class="text-wh">
 							<span class="fa fa-envelope-open mr-2"></span>
-							<a href="mailto:info@example.com">Example@gmail.com</a>
+							<a href="mailto:info@example.com">xw_1745@hotmail.com</a>
 						</p>
 					</li>
 				</ul>

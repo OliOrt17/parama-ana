@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-4 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
+				<h1> <a href="index.php"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
@@ -92,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-10 address-right">
 						<h5>Envianos un correo</h5>
-						<p><a href="mailto:info@example.com">Example@gmail.com</a></p>
+						<p><a href="mailto:info@example.com">xw_1745@hotmail.com</a></p>
 					</div>
 				</div>
 			</div>
@@ -158,7 +158,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<p class="text-wh">
 							<span class="fa fa-envelope-open mr-2"></span>
-							<a href="mailto:info@example.com">Example@gmail.com</a>
+							<a href="mailto:info@example.com">xw_1745@hotmail.com</a>
 						</p>
 					</li>
 				</ul>

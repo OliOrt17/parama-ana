@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- nav -->
 		<nav class="py-4 d-lg-flex">
 			<div id="logo">
-				<h1> <a href="index.html"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
+				<h1> <a href="index.php"><span class="fa fa-leaf"></span> Agro Harvest</a></h1>
 			</div>
 			<label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
 			<input type="checkbox" id="drop" />
@@ -276,43 +276,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //texto -->
 
 <!-- servicios -->
+<!-- servicios -->
 <section class="blog py-5">
-		<div class="container py-md-5">
-			<h3 class="heading mb-sm-5 mb-4 text-center"> Nuestros productos y servicios</h3>
-			<div class="row blog-grids">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center"> Nuestros productos y servicios</h3>
+		<div class="row blog-grids">
 			<?php
 				$productos = $db->select("productos",["productos.pro_nom", "productos.pro_desc", "productos.pro_img"]);
 				foreach($productos as $key => $pro){
 			?>
-			
-				<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">	
-					<img src="<?php echo $pro["pro_img"];?>" class="img-fliud" alt="" />
-					<div class="blog-info">
-						<h4><?php echo $pro["pro_nom"];?><span class="fa fa-pagelines"></span></h4>
-						<p class="mt-2"><?php echo $pro["pro_desc"];?></p>
-					</div>
+			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5">	
+				<img src="<?php echo $pro["pro_img"];?>" class="img-fliud" alt="" />
+				<div class="blog-info">
+					<h4><?php echo $pro["pro_nom"];?><span class="fa fa-pagelines"></span></h4>
+					<p class="mt-2"><?php echo $pro["pro_desc"];?></p>
 				</div>
-				<?php
-				}
-				/*<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">	
-					<img src="images/s2.jpg" class="img-fliud" alt="" />
-					<div class="blog-info">
-						<h4>Cultivo <span class="fa fa-pagelines"></span></h4>
-						<p class="mt-2">Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
-					<img src="images/s3.jpg" class="img-fliud" alt="" />
-					<div class="blog-info">
-						<h4>Cosecha <span class="fa fa-pagelines"></span></h4>
-						<p class="mt-2">Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.</p>
-					</div>
-				</div>
-				*/?>
 			</div>
+			<?php
+			}
+			/*<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">	
+				<img src="images/s2.jpg" class="img-fliud" alt="" />
+				<div class="blog-info">
+					<h4>Cultivo <span class="fa fa-pagelines"></span></h4>
+					<p class="mt-2">Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-right mt-lg-0 mt-5 pt-lg-0 pt-md-5">
+				<img src="images/s3.jpg" class="img-fliud" alt="" />
+				<div class="blog-info">
+					<h4>Cosecha <span class="fa fa-pagelines"></span></h4>
+					<p class="mt-2">Integer sit ut amet mattis quam, sit amet ultricies velit. Praesent ullam corper dui turpis sit.</p>
+				</div>
+			</div>
+			*/?>
 		</div>
-	</section>
-<!-- //servicios -->
+	</div>
+</section>
 
 <!-- texto -->
 <section class="text py-5">
@@ -355,7 +354,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>
 					<p class="text-wh">
 						<span class="fa fa-envelope-open mr-2"></span>
-						<a href="mailto:info@example.com">Example@gmail.com</a>
+						<a href="mailto:info@example.com">xw_1745@hotmail.com</a>
 					</p>
 				</li>
 			</ul>
