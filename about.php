@@ -292,7 +292,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <section class="news py-5">
 	<div class="container py-xl-5 py-lg-3">
 		<h3 class="heading mb-sm-5 mb-4 text-center">Nuestros clientes dicen...</h3>
-		<div class="row">
+		<div class="row" id="com">
 				<?php
 					$reviews = $db->select("reviews",["reviews.rev_nom", "reviews.rev_com", "reviews.rev_cli", "reviews.rev_img"]);
 					foreach($reviews as $key => $rev){

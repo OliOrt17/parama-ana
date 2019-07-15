@@ -214,7 +214,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </section>
 <!-- //servicos -->
 
-<!-- newsletter -->
+<section class="newsl">
+	<!-- newsletter -->
 <div class="newsletter_right_w3 py-5">
 	<div class="container py-lg-3">
 		<h3 class="heading mb-4 text-center">Suscribete a nuestro Newsletter</h3>
@@ -254,6 +255,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	
 </div>
 <!-- //newsletter -->
+</section>
 
 <!-- footer -->
 	<footer class="text-center py-5">
